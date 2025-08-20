@@ -26,8 +26,9 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install Tailwind CLI
+      - name: Initialize npm and install Tailwind CLI
         run: |
+          npm init -y
           npm i -D tailwindcss@latest
           npx tailwindcss -v
 
