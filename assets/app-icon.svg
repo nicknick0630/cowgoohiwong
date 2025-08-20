@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- White Background -->
+  <rect width="512" height="512" fill="#ffffff"/>
+  
+  <!-- Black Crown Icon (centered and scaled) -->
+  <g transform="translate(256, 256) scale(3.5) translate(-50, -50)">
+    <!-- Crown Base -->
+    <rect x="20" y="70" width="60" height="10" rx="2" fill="#000000"/>
+    
+    <!-- Crown Points -->
+    <path d="M 20 70 L 25 30 L 35 50 L 50 25 L 65 50 L 75 30 L 80 70 Z" fill="#000000"/>
+    
+    <!-- Crown Jewels -->
+    <circle cx="50" cy="55" r="4" fill="#ffffff"/>
+    <circle cx="35" cy="60" r="3" fill="#ffffff"/>
+    <circle cx="65" cy="60" r="3" fill="#ffffff"/>
+  </g>
+  
+  <!-- App Name Text -->
+  <text x="256" y="420" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#000000">考古海王</text>
+</svg>
