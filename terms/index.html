@@ -10,8 +10,22 @@
     <link rel="icon" type="image/png" href="../assets/app-icon.png">
     <link rel="apple-touch-icon" href="../assets/app-icon.png">
     
-    <!-- Tailwind CSS (Precompiled) -->
-    <link rel="stylesheet" href="../assets/css/site.css">
+    <!-- Tailwind CSS via CDN (temporary solution) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            primary: "#2563EB",
+                            ink: "#334155"
+                        }
+                    }
+                }
+            }
+        }
+    </script>
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLYBV8FSRH"></script>
