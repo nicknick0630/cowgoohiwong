@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>考古海王｜國考題庫練習工具（iPad）</title>
-    <meta name="description" content="國考題庫練習工具。支援歷屆試題、模擬考、錯題追蹤與 AI 詳解輔助，離線可用、仿真考場模式，幫你高效複習、穩定拿分。">
+    <title>考古海王｜醫師、牙醫、中醫國考題庫 - 附智慧詳解</title>
+    <meta name="description" content="醫師、牙醫師、中醫師國考題庫App。每題附智慧詳解，支援練習與複習雙模式、完善搜尋系統、書籤iCloud同步。下載後離線使用，7天免費試用。">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="考古海王｜國考題庫練習工具（iPad）">
-    <meta property="og:description" content="國考題庫練習工具。支援歷屆試題、模擬考、錯題追蹤與 AI 詳解輔助，離線可用、仿真考場模式，幫你高效複習、穩定拿分。">
+    <meta property="og:title" content="考古海王｜醫師、牙醫、中醫國考題庫 - 附智慧詳解">
+    <meta property="og:description" content="醫師、牙醫師、中醫師國考題庫App。每題附智慧詳解，支援練習與複習雙模式、完善搜尋系統、書籤iCloud同步。下載後離線使用，7天免費試用。">
     <meta property="og:image" content="https://app.cowgoohiwong.com/assets/og-image.png">
     <meta property="og:url" content="https://app.cowgoohiwong.com/">
     <meta property="og:type" content="website">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="考古海王｜國考題庫練習工具（iPad）">
-    <meta name="twitter:description" content="國考題庫練習工具。支援歷屆試題、模擬考、錯題追蹤與 AI 詳解輔助，離線可用、仿真考場模式，幫你高效複習、穩定拿分。">
+    <meta name="twitter:title" content="考古海王｜醫師、牙醫、中醫國考題庫 - 附智慧詳解">
+    <meta name="twitter:description" content="醫師、牙醫師、中醫師國考題庫App。每題附智慧詳解，支援練習與複習雙模式、完善搜尋系統、書籤iCloud同步。">
     <meta name="twitter:image" content="https://app.cowgoohiwong.com/assets/og-image.png">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/app-icon.png">
     <link rel="apple-touch-icon" href="assets/app-icon.png">
     
-    <!-- Tailwind CSS via CDN (temporary solution) -->
+    <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -62,7 +62,7 @@
                     <a href="#features" class="text-gray-600 hover:text-gray-900">功能特色</a>
                     <a href="#pricing" class="text-gray-600 hover:text-gray-900">價格方案</a>
                     <a href="https://apps.apple.com/tw/app/%E8%80%83%E5%8F%A4%E6%B5%B7%E7%8E%8B/id6746675096" 
-                       class="btn-primary"
+                       class="inline-flex items-center justify-center rounded-xl px-4 py-2 font-semibold bg-brand-primary text-white hover:opacity-90"
                        target="_blank" rel="noopener noreferrer">
                         前往 App Store
                     </a>
@@ -75,36 +75,69 @@
     <section class="py-20 bg-gradient-to-b from-gray-50 to-white">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto text-center">
+                <!-- 題庫類別標籤 -->
+                <div class="inline-flex items-center gap-2 px-4 py-2 bg-brand-primary bg-opacity-10 text-brand-primary rounded-full text-sm font-medium mb-6">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"></path>
+                    </svg>
+                    醫師、牙醫師、中醫師題庫全收錄
+                </div>
+                
                 <h1 class="text-5xl font-bold text-gray-900 mb-6">
-                    國考題庫練習工具，專注高效複習
+                    國考歷屆試題<span class="text-brand-primary">＋智慧詳解</span>
                 </h1>
                 <p class="text-xl text-gray-600 mb-8">
-                    歷屆試題 × 模擬考 × 錯題追蹤 × AI 詳解｜離線可用，幫你穩定拿高分。
+                    完整收錄醫師、牙醫師、中醫師國考題庫，每題都有詳細解析<br>
+                    下載題庫即可離線使用，練習模式、複習模式任你選擇
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
                     <a href="https://apps.apple.com/tw/app/%E8%80%83%E5%8F%A4%E6%B5%B7%E7%8E%8B/id6746675096" 
-                       class="btn-primary text-lg px-8 py-4"
+                       class="inline-flex items-center justify-center rounded-xl px-8 py-4 font-semibold bg-brand-primary text-white hover:opacity-90 text-lg"
                        target="_blank" rel="noopener noreferrer">
-                        前往 App Store 下載
+                        免費下載・7 天試用
                     </a>
-                    <a href="#features" class="btn bg-white border-2 border-gray-300 text-gray-700 hover:bg-gray-50 text-lg px-8 py-4">
-                        看看功能
+                    <a href="#features" class="inline-flex items-center justify-center rounded-xl px-8 py-4 font-semibold bg-white border-2 border-gray-300 text-gray-700 hover:bg-gray-50 text-lg">
+                        看看功能特色
                     </a>
                 </div>
-                <!-- Badges -->
+                <!-- 特色標籤 -->
                 <div class="flex flex-wrap gap-3 justify-center">
-                    <span class="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
-                        離線題庫
+                    <span class="inline-flex items-center px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm font-medium">
+                        ✓ 智慧詳解
                     </span>
-                    <span class="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
-                        仿真考場
+                    <span class="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
+                        ✓ 離線使用
                     </span>
-                    <span class="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
-                        AI 詳解
+                    <span class="inline-flex items-center px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
+                        ✓ iCloud 同步
                     </span>
-                    <span class="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
-                        iPad 最佳體驗
+                    <span class="inline-flex items-center px-4 py-2 bg-orange-100 text-orange-700 rounded-full text-sm font-medium">
+                        ✓ 雙模式練習
                     </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="py-12 bg-brand-primary">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
+                <div>
+                    <div class="text-3xl font-bold">3</div>
+                    <div class="text-sm opacity-90 mt-1">專業科別</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold">10,000+</div>
+                    <div class="text-sm opacity-90 mt-1">歷屆試題</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold">100%</div>
+                    <div class="text-sm opacity-90 mt-1">附詳解</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold">7 天</div>
+                    <div class="text-sm opacity-90 mt-1">免費試用</div>
                 </div>
             </div>
         </div>
@@ -114,256 +147,351 @@
     <section id="features" class="py-20">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">功能特色</h2>
-                <p class="text-xl text-gray-600">專為國考生設計的完整練習系統</p>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">完整功能，助你高效備考</h2>
+                <p class="text-xl text-gray-600">專為醫學專業國考生設計的智慧題庫系統</p>
             </div>
             <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                <!-- Feature 1 -->
+                <!-- Feature 1: 題庫內容 -->
                 <div class="text-center p-6">
                     <div class="w-16 h-16 bg-brand-primary bg-opacity-10 rounded-2xl flex items-center justify-center mx-auto mb-4">
                         <svg class="w-8 h-8 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-3">完整歷屆試題庫</h3>
-                    <p class="text-gray-600">收錄醫師、牙醫、中醫、藥師等國考歷屆試題，持續更新最新考題。</p>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">三大專業題庫</h3>
+                    <p class="text-gray-600">完整收錄醫師、牙醫師、中醫師歷屆國考試題，未來持續新增物治、職治、藥師題庫。</p>
                 </div>
-                <!-- Feature 2 -->
+                
+                <!-- Feature 2: 智慧詳解 -->
                 <div class="text-center p-6">
                     <div class="w-16 h-16 bg-brand-primary bg-opacity-10 rounded-2xl flex items-center justify-center mx-auto mb-4">
                         <svg class="w-8 h-8 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-3">智慧錯題追蹤</h3>
-                    <p class="text-gray-600">自動記錄錯題，建立個人專屬錯題本，針對弱點加強複習。</p>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">智慧詳解輔助</h3>
+                    <p class="text-gray-600">每題都附有 AI 生成的詳細解析，幫助你快速理解考點、掌握答題技巧。</p>
                 </div>
-                <!-- Feature 3 -->
+                
+                <!-- Feature 3: 雙模式學習 -->
                 <div class="text-center p-6">
                     <div class="w-16 h-16 bg-brand-primary bg-opacity-10 rounded-2xl flex items-center justify-center mx-auto mb-4">
                         <svg class="w-8 h-8 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-3">AI 詳解輔助</h3>
-                    <p class="text-gray-600">提供 AI 生成的詳細解答，幫助理解題目邏輯與答題技巧。</p>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">練習 & 複習雙模式</h3>
+                    <p class="text-gray-600">練習模式模擬真實考試，作答後才能看詳解；複習模式直接顯示答案與解析。</p>
                 </div>
-                <!-- Feature 4 -->
+                
+                <!-- Feature 4: 強大搜尋 -->
                 <div class="text-center p-6">
                     <div class="w-16 h-16 bg-brand-primary bg-opacity-10 rounded-2xl flex items-center justify-center mx-auto mb-4">
                         <svg class="w-8 h-8 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-3">仿真考場模式</h3>
-                    <p class="text-gray-600">模擬真實考試環境，計時作答、自動批改，提前適應考試節奏。</p>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">完善搜尋系統</h3>
+                    <p class="text-gray-600">依考卷、年份、類別、標籤或關鍵字搜尋，快速找到需要的題目。</p>
                 </div>
-                <!-- Feature 5 -->
+                
+                <!-- Feature 5: 書籤同步 -->
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-brand-primary bg-opacity-10 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">書籤 iCloud 同步</h3>
+                    <p class="text-gray-600">重要題目一鍵收藏，書籤自動同步備份到 iCloud，換裝置也不怕遺失。</p>
+                </div>
+                
+                <!-- Feature 6: 離線使用 -->
                 <div class="text-center p-6">
                     <div class="w-16 h-16 bg-brand-primary bg-opacity-10 rounded-2xl flex items-center justify-center mx-auto mb-4">
                         <svg class="w-8 h-8 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-3">離線使用</h3>
-                    <p class="text-gray-600">下載題庫後可離線練習，不受網路限制，隨時隨地複習。</p>
-                </div>
-                <!-- Feature 6 -->
-                <div class="text-center p-6">
-                    <div class="w-16 h-16 bg-brand-primary bg-opacity-10 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                        <svg class="w-8 h-8 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-3">書籤收藏</h3>
-                    <p class="text-gray-600">重要題目一鍵收藏，建立個人題庫，方便日後重點複習。</p>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">離線完整使用</h3>
+                    <p class="text-gray-600">下載題庫與詳解後即可離線使用，不受網路限制，隨時隨地複習。</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Use Cases Section -->
+    <!-- Practice Modes Section -->
     <section class="py-20 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">為什麼選擇考古海王？</h2>
-                <p class="text-xl text-gray-600">解決國考生的真實痛點</p>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">雙模式學習系統</h2>
+                <p class="text-xl text-gray-600">依照你的學習需求，選擇最適合的模式</p>
             </div>
-            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                <div class="bg-white p-8 rounded-2xl shadow-sm">
-                    <h3 class="text-xl font-semibold text-gray-900 mb-4">時間碎片化</h3>
-                    <p class="text-gray-600 mb-4">通勤、午休都能練題，離線模式讓你把握每個零碎時間。</p>
-                    <p class="text-sm text-brand-primary font-medium">解決方案：離線題庫 + 快速練習模式</p>
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- 練習模式 -->
+                <div class="bg-white rounded-2xl shadow-sm p-8">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">練習模式</h3>
+                    </div>
+                    <p class="text-gray-600 mb-6">模擬真實考試體驗，培養臨場感</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">答題後才顯示正確答案</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">作答統計（答對率、錯題數）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">作答後才能查看詳解</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">培養答題手感與節奏</span>
+                        </li>
+                    </ul>
                 </div>
-                <div class="bg-white p-8 rounded-2xl shadow-sm">
-                    <h3 class="text-xl font-semibold text-gray-900 mb-4">找不到弱點</h3>
-                    <p class="text-gray-600 mb-4">不知道自己哪裡需要加強？智慧分析幫你找出薄弱環節。</p>
-                    <p class="text-sm text-brand-primary font-medium">解決方案：錯題追蹤 + 成績分析</p>
-                </div>
-                <div class="bg-white p-8 rounded-2xl shadow-sm">
-                    <h3 class="text-xl font-semibold text-gray-900 mb-4">缺乏臨場感</h3>
-                    <p class="text-gray-600 mb-4">平常練習太輕鬆，正式考試就緊張？仿真模式讓你提前適應。</p>
-                    <p class="text-sm text-brand-primary font-medium">解決方案：考場模式 + 計時系統</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Screenshots Section -->
-    <section class="py-20">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">實際使用畫面</h2>
-                <p class="text-xl text-gray-600">專為 iPad 打造的最佳學習體驗</p>
-            </div>
-            <div class="max-w-6xl mx-auto">
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="relative">
-                        <div class="aspect-[4/3] bg-gray-100 rounded-xl overflow-hidden">
-                            <img src="assets/screens/s1.png" alt="題庫列表畫面" class="w-full h-full object-cover">
+                
+                <!-- 複習模式 -->
+                <div class="bg-white rounded-2xl shadow-sm p-8">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                            </svg>
                         </div>
-                        <p class="text-center mt-4 text-gray-600">題庫列表</p>
+                        <h3 class="text-2xl font-bold text-gray-900">複習模式</h3>
                     </div>
-                    <div class="relative">
-                        <div class="aspect-[4/3] bg-gray-100 rounded-xl overflow-hidden">
-                            <img src="assets/screens/s2.png" alt="答題畫面" class="w-full h-full object-cover">
-                        </div>
-                        <p class="text-center mt-4 text-gray-600">答題介面</p>
-                    </div>
-                    <div class="relative">
-                        <div class="aspect-[4/3] bg-gray-100 rounded-xl overflow-hidden">
-                            <img src="assets/screens/s3.png" alt="詳解畫面" class="w-full h-full object-cover">
-                        </div>
-                        <p class="text-center mt-4 text-gray-600">AI 詳解</p>
-                    </div>
-                    <div class="relative">
-                        <div class="aspect-[4/3] bg-gray-100 rounded-xl overflow-hidden">
-                            <img src="assets/screens/s4.png" alt="錯題本" class="w-full h-full object-cover">
-                        </div>
-                        <p class="text-center mt-4 text-gray-600">錯題本</p>
-                    </div>
-                    <div class="relative">
-                        <div class="aspect-[4/3] bg-gray-100 rounded-xl overflow-hidden">
-                            <img src="assets/screens/s5.png" alt="成績分析" class="w-full h-full object-cover">
-                        </div>
-                        <p class="text-center mt-4 text-gray-600">成績分析</p>
-                    </div>
+                    <p class="text-gray-600 mb-6">快速瀏覽題目與解析，加深記憶</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">直接顯示正確答案</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">隨時查看詳細解析</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">適合快速複習重點</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">強化考點記憶理解</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Pricing Section -->
-    <section id="pricing" class="py-20 bg-gray-50">
+    <section id="pricing" class="py-20">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">價格方案</h2>
-                <p class="text-xl text-gray-600">免費下載，進階功能訂閱解鎖</p>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">超值訂閱方案</h2>
+                <p class="text-xl text-gray-600">新用戶享 7 天免費試用，隨時可取消</p>
             </div>
-            <div class="max-w-4xl mx-auto">
-                <div class="bg-white rounded-2xl shadow-sm p-8">
-                    <div class="grid md:grid-cols-2 gap-8">
-                        <div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-4">免費版</h3>
-                            <ul class="space-y-3">
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span class="text-gray-600">基礎題庫練習</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span class="text-gray-600">每日限量練習</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span class="text-gray-600">基本成績統計</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-4">訂閱版</h3>
-                            <ul class="space-y-3">
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span class="text-gray-600">完整題庫無限練習</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span class="text-gray-600">AI 詳解功能</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span class="text-gray-600">錯題本與書籤功能</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span class="text-gray-600">仿真考場模式</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span class="text-gray-600">離線下載功能</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span class="text-gray-600">進階成績分析</span>
-                                </li>
-                            </ul>
-                        </div>
+            
+            <!-- 試用提示 -->
+            <div class="max-w-2xl mx-auto mb-8">
+                <div class="bg-green-50 border border-green-200 rounded-xl p-6 text-center">
+                    <div class="flex items-center justify-center mb-3">
+                        <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path>
+                        </svg>
                     </div>
-                    <div class="mt-8 pt-8 border-t border-gray-200">
-                        <p class="text-sm text-gray-500 text-center">
-                            詳細價格與訂閱方案請至 App 內查看。提供月訂閱與年訂閱選項。
-                        </p>
-                    </div>
+                    <h3 class="text-lg font-semibold text-green-900 mb-2">🎉 新用戶專屬優惠</h3>
+                    <p class="text-green-700">立即下載享 <span class="font-bold">7 天免費試用</span>，體驗全功能不花一毛錢！</p>
                 </div>
+            </div>
+            
+            <!-- 價格卡片 -->
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- 月訂閱 -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 border-2 border-gray-200 hover:border-brand-primary transition-colors">
+                    <div class="text-center mb-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">月訂閱</h3>
+                        <div class="text-4xl font-bold text-gray-900">
+                            NT$ 40
+                            <span class="text-lg font-normal text-gray-500">/月</span>
+                        </div>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">全功能無限使用</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">適合短期衝刺</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">隨時可取消</span>
+                        </li>
+                    </ul>
+                    <a href="https://apps.apple.com/tw/app/%E8%80%83%E5%8F%A4%E6%B5%B7%E7%8E%8B/id6746675096" 
+                       class="block w-full text-center py-3 px-4 bg-gray-100 text-gray-700 hover:bg-gray-200 rounded-xl font-semibold transition-colors"
+                       target="_blank" rel="noopener noreferrer">
+                        選擇方案
+                    </a>
+                </div>
+                
+                <!-- 三個月（推薦） -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 border-2 border-brand-primary relative transform scale-105">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                        <span class="bg-brand-primary text-white px-4 py-1 rounded-full text-sm font-semibold">最受歡迎</span>
+                    </div>
+                    <div class="text-center mb-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">三個月訂閱</h3>
+                        <div class="text-4xl font-bold text-gray-900">
+                            NT$ 100
+                            <span class="text-lg font-normal text-gray-500">/3個月</span>
+                        </div>
+                        <p class="text-sm text-green-600 mt-2">省 NT$ 20（約 33 元/月）</p>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">全功能無限使用</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">CP 值最高</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">最多人選擇</span>
+                        </li>
+                    </ul>
+                    <a href="https://apps.apple.com/tw/app/%E8%80%83%E5%8F%A4%E6%B5%B7%E7%8E%8B/id6746675096" 
+                       class="block w-full text-center py-3 px-4 bg-brand-primary text-white hover:opacity-90 rounded-xl font-semibold transition-opacity"
+                       target="_blank" rel="noopener noreferrer">
+                        選擇方案
+                    </a>
+                </div>
+                
+                <!-- 六個月 -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 border-2 border-gray-200 hover:border-brand-primary transition-colors">
+                    <div class="text-center mb-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">六個月訂閱</h3>
+                        <div class="text-4xl font-bold text-gray-900">
+                            NT$ 180
+                            <span class="text-lg font-normal text-gray-500">/6個月</span>
+                        </div>
+                        <p class="text-sm text-green-600 mt-2">省 NT$ 60（僅 30 元/月）</p>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">全功能無限使用</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">長期備考首選</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">最省錢方案</span>
+                        </li>
+                    </ul>
+                    <a href="https://apps.apple.com/tw/app/%E8%80%83%E5%8F%A4%E6%B5%B7%E7%8E%8B/id6746675096" 
+                       class="block w-full text-center py-3 px-4 bg-gray-100 text-gray-700 hover:bg-gray-200 rounded-xl font-semibold transition-colors"
+                       target="_blank" rel="noopener noreferrer">
+                        選擇方案
+                    </a>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <p class="text-sm text-gray-500">
+                    所有方案皆透過 App Store 安全付款 • 可隨時在 App Store 管理訂閱
+                </p>
             </div>
         </div>
     </section>
 
     <!-- FAQ Section -->
-    <section class="py-20">
+    <section class="py-20 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">常見問題</h2>
             </div>
             <div class="max-w-3xl mx-auto space-y-6">
-                <details class="bg-gray-50 rounded-xl p-6">
-                    <summary class="font-semibold text-gray-900 cursor-pointer">支援哪些國考科目？</summary>
-                    <p class="mt-4 text-gray-600">目前支援醫師國考題庫、牙醫國考題庫、中醫國考題庫、藥師、物治、職治等專業考試，持續新增更多科目。</p>
+                <details class="bg-white rounded-xl p-6 shadow-sm">
+                    <summary class="font-semibold text-gray-900 cursor-pointer">目前有哪些科目的題庫？</summary>
+                    <p class="mt-4 text-gray-600">目前已完整收錄醫師、牙醫師、中醫師國考歷屆試題與詳解。未來將陸續新增物理治療師、職能治療師、藥師等專業科目。</p>
                 </details>
-                <details class="bg-gray-50 rounded-xl p-6">
-                    <summary class="font-semibold text-gray-900 cursor-pointer">離線題庫如何更新？</summary>
-                    <p class="mt-4 text-gray-600">連接網路時，App 會自動檢查並下載最新題庫。您也可以在設定中手動更新題庫。</p>
+                <details class="bg-white rounded-xl p-6 shadow-sm">
+                    <summary class="font-semibold text-gray-900 cursor-pointer">什麼是練習模式和複習模式？</summary>
+                    <p class="mt-4 text-gray-600">練習模式模擬真實考試，需要先作答才能看到答案和詳解，並提供答題統計。複習模式則直接顯示答案與詳解，適合快速瀏覽重點。</p>
                 </details>
-                <details class="bg-gray-50 rounded-xl p-6">
-                    <summary class="font-semibold text-gray-900 cursor-pointer">AI 詳解是如何運作的？</summary>
-                    <p class="mt-4 text-gray-600">我們使用先進的 AI 技術分析題目並生成詳細解答，幫助您理解答題邏輯。詳解內容會根據官方答案和相關知識點生成。</p>
+                <details class="bg-white rounded-xl p-6 shadow-sm">
+                    <summary class="font-semibold text-gray-900 cursor-pointer">智慧詳解是什麼？如何運作？</summary>
+                    <p class="mt-4 text-gray-600">我們使用 AI 技術為每道題目生成詳細解析，包括答題思路、考點分析、相關知識延伸等，幫助你深入理解題目，而非死背答案。</p>
                 </details>
-                <details class="bg-gray-50 rounded-xl p-6">
-                    <summary class="font-semibold text-gray-900 cursor-pointer">可以在 iPhone 上使用嗎？</summary>
-                    <p class="mt-4 text-gray-600">考古海王是專為 iPad 設計的題庫 App，針對大螢幕優化介面與操作體驗。iPhone 用戶可期待未來版本支援。</p>
+                <details class="bg-white rounded-xl p-6 shadow-sm">
+                    <summary class="font-semibold text-gray-900 cursor-pointer">離線使用需要先下載嗎？</summary>
+                    <p class="mt-4 text-gray-600">是的，首次使用時需連網下載題庫和詳解。下載完成後，即可完全離線使用所有功能，包括練習、複習、查看詳解等。</p>
                 </details>
-                <details class="bg-gray-50 rounded-xl p-6">
-                    <summary class="font-semibold text-gray-900 cursor-pointer">如何管理錯題本？</summary>
-                    <p class="mt-4 text-gray-600">系統會自動記錄您的錯題，您可以在錯題本中查看、複習，也可以手動加入或移除題目。</p>
+                <details class="bg-white rounded-xl p-6 shadow-sm">
+                    <summary class="font-semibold text-gray-900 cursor-pointer">書籤如何同步到 iCloud？</summary>
+                    <p class="mt-4 text-gray-600">只要您的 iPad 登入 iCloud 帳號，書籤會自動同步備份。更換裝置時，使用相同 iCloud 帳號登入即可恢復所有書籤。</p>
+                </details>
+                <details class="bg-white rounded-xl p-6 shadow-sm">
+                    <summary class="font-semibold text-gray-900 cursor-pointer">如何使用搜尋功能？</summary>
+                    <p class="mt-4 text-gray-600">你可以透過多種方式搜尋：依考卷（年份、科目）、書籤、標籤分類，或直接輸入關鍵字搜尋題目內容。</p>
+                </details>
+                <details class="bg-white rounded-xl p-6 shadow-sm">
+                    <summary class="font-semibold text-gray-900 cursor-pointer">7 天試用包含所有功能嗎？</summary>
+                    <p class="mt-4 text-gray-600">是的！7 天試用期間可使用 App 的所有功能，包括完整題庫、智慧詳解、雙模式練習、書籤同步等。試用結束前可隨時取消。</p>
+                </details>
+                <details class="bg-white rounded-xl p-6 shadow-sm">
+                    <summary class="font-semibold text-gray-900 cursor-pointer">如何提供意見回饋？</summary>
+                    <p class="mt-4 text-gray-600">你可以直接在 App 的設定頁面填寫意見回饋表單，我們會認真閱讀每一則回饋，持續改進產品。</p>
                 </details>
             </div>
         </div>
@@ -372,39 +500,19 @@
     <!-- CTA Section -->
     <section class="py-20 bg-gradient-to-r from-brand-primary to-blue-700">
         <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold text-white mb-4">準備好開始高效複習了嗎？</h2>
-            <p class="text-xl text-blue-100 mb-8">加入數千位國考生的行列，一起用考古海王穩定拿高分！</p>
+            <h2 class="text-3xl font-bold text-white mb-4">準備好征服國考了嗎？</h2>
+            <p class="text-xl text-blue-100 mb-8">
+                立即下載考古海王，開啟 7 天免費試用<br>
+                讓智慧詳解成為你的最強備考夥伴！
+            </p>
             <a href="https://apps.apple.com/tw/app/%E8%80%83%E5%8F%A4%E6%B5%B7%E7%8E%8B/id6746675096" 
-               class="btn bg-white text-brand-primary hover:bg-gray-100 text-lg px-8 py-4"
+               class="inline-flex items-center justify-center rounded-xl px-8 py-4 font-semibold bg-white text-brand-primary hover:bg-gray-100 text-lg transition-colors"
                target="_blank" rel="noopener noreferrer">
-                立即前往 App Store 下載
+                立即免費試用 7 天
             </a>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="py-20">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto text-center">
-                <h2 class="text-3xl font-bold text-gray-900 mb-8">聯絡我們</h2>
-                <div class="grid md:grid-cols-3 gap-8">
-                    <div>
-                        <h3 class="font-semibold text-gray-900 mb-2">Email</h3>
-                        <p class="text-gray-600">support@cowgoohiwong.com</p>
-                    </div>
-                    <div>
-                        <h3 class="font-semibold text-gray-900 mb-2">社群媒體</h3>
-                        <div class="flex justify-center space-x-4">
-                            <a href="#" class="text-gray-400 hover:text-gray-600">Facebook</a>
-                            <a href="#" class="text-gray-400 hover:text-gray-600">Instagram</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="font-semibold text-gray-900 mb-2">意見回饋</h3>
-                        <p class="text-gray-600">歡迎在 App Store 留下評價</p>
-                    </div>
-                </div>
-            </div>
+            <p class="text-sm text-blue-100 mt-4 opacity-90">
+                無需信用卡 • 隨時可取消 • 試用期滿意再訂閱
+            </p>
         </div>
     </section>
 
@@ -418,7 +526,7 @@
                             <img src="assets/logo-crown.svg" alt="考古海王" class="h-6 w-6 brightness-0 invert">
                             <span class="text-white font-semibold">考古海王</span>
                         </div>
-                        <p class="text-sm">專為國考生打造的 iPad 題庫練習工具</p>
+                        <p class="text-sm">醫學專業國考題庫 App<br>智慧詳解，高效備考</p>
                     </div>
                     <div>
                         <h4 class="text-white font-semibold mb-4">產品</h4>
