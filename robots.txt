@@ -1,4 +1,53 @@
+# 考古海王官網 robots.txt
+# 全部爬蟲（含搜尋與 AI）皆歡迎索引
+
 User-agent: *
+Allow: /
+
+# ── OpenAI ──
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# ── Anthropic ──
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# ── Perplexity ──
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ── Google AI ──
+User-agent: Google-Extended
+Allow: /
+
+# ── Apple ──
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ── Common Crawl（許多 LLM 訓練語料的來源） ──
+User-agent: CCBot
+Allow: /
+
+# ── Microsoft / Bing AI ──
+User-agent: bingbot
 Allow: /
 
 Sitemap: https://app.cowgoohiwong.com/sitemap.xml
