@@ -10,22 +10,8 @@
     <link rel="icon" type="image/png" href="../assets/AppIcon8.png">
     <link rel="apple-touch-icon" href="../assets/AppIcon8.png">
     
-    <!-- Tailwind CSS via CDN (temporary solution) -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            primary: "#2563EB",
-                            ink: "#334155"
-                        }
-                    }
-                }
-            }
-        }
-    </script>
+    <!-- Tailwind CSS（pre-built via tailwind.config.js + assets/css/input.css）-->
+    <link rel="stylesheet" href="../assets/css/site.css">
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLYBV8FSRH"></script>
@@ -42,7 +28,7 @@
         <div class="container mx-auto px-4 py-4">
             <nav class="flex items-center justify-between">
                 <a href="/" class="flex items-center space-x-2">
-                    <img src="../assets/AppIcon8.png" alt="考古海王 Logo" class="h-8 w-8">
+                    <img src="../assets/AppIcon-128.png" alt="考古海王 Logo" class="h-8 w-8">
                     <span class="text-xl font-bold text-gray-900">考古海王</span>
                 </a>
                 <a href="https://apps.apple.com/tw/app/%E8%80%83%E5%8F%A4%E6%B5%B7%E7%8E%8B/id6746675096" 
@@ -60,7 +46,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-sm p-8 md:p-12">
                 <h1 class="text-3xl font-bold text-gray-900 mb-8">服務條款</h1>
                 
-                <p class="text-gray-600 mb-8">最後更新日期：2024 年 12 月</p>
+                <p class="text-gray-600 mb-8">最後更新日期：2026 年 5 月</p>
                 
                 <section class="space-y-8">
                     <div>
@@ -79,31 +65,38 @@
                             <li>歷屆國考試題練習</li>
                             <li>模擬考試功能</li>
                             <li>錯題追蹤與管理</li>
-                            <li>AI 詳解輔助</li>
+                            <li>AI 智慧詳解</li>
                             <li>離線題庫功能</li>
                             <li>成績分析與統計</li>
                         </ul>
                     </div>
 
                     <div>
-                        <h2 class="text-xl font-semibold text-gray-900 mb-4">3. 使用者帳戶</h2>
+                        <h2 class="text-xl font-semibold text-gray-900 mb-4">3. iCloud 與裝置資料</h2>
                         <p class="text-gray-700 leading-relaxed mb-3">
-                            為使用本服務的完整功能，您可能需要建立帳戶。您同意：
+                            本服務不要求您建立帳戶，下載 App 後即可開始使用。部分功能（如書籤跨裝置同步）會透過您 iPad 已登入的 Apple ID / iCloud 帳號進行：
                         </p>
                         <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4">
-                            <li>提供準確、完整的註冊資訊</li>
-                            <li>維護帳戶資訊的準確性與即時性</li>
-                            <li>對您帳戶下的所有活動負責</li>
-                            <li>保護您的帳戶密碼安全</li>
-                            <li>發現任何未經授權的使用時立即通知我們</li>
+                            <li>書籤等個人化資料儲存於您的 iCloud 私有資料庫，由 Apple CloudKit 處理</li>
+                            <li>本服務不會接觸到您的 iCloud 帳號密碼，也不會在我們的伺服器上儲存您的個人識別資料</li>
+                            <li>您應自行妥善保管 Apple ID 登入資訊與裝置安全</li>
+                            <li>更多資料處理細節請參閱<a href="/privacy/" class="text-brand-primary hover:underline">隱私權政策</a></li>
                         </ul>
                     </div>
 
                     <div>
-                        <h2 class="text-xl font-semibold text-gray-900 mb-4">4. 訂閱與付款</h2>
-                        <p class="text-gray-700 leading-relaxed">
-                            本服務提供免費與付費訂閱選項。付費訂閱將透過 Apple App Store 處理，相關付款條款以 Apple 的規定為準。訂閱將自動續訂，除非您在當期結束前至少 24 小時取消訂閱。
+                        <h2 class="text-xl font-semibold text-gray-900 mb-4">4. 服務費用與贊助</h2>
+                        <p class="text-gray-700 leading-relaxed mb-3">
+                            本服務所有功能<strong>完全免費</strong>，無訂閱、無廣告、無使用限制。
                         </p>
+                        <p class="text-gray-700 leading-relaxed mb-3">
+                            App 內提供「支持開發者」自願贊助選項，幫助我們持續更新題庫與改進產品：
+                        </p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4">
+                            <li>贊助為<strong>自願性質</strong>，不影響任何功能使用</li>
+                            <li>贊助透過 Apple App Store 內購機制處理，付款條款以 Apple 的規定為準</li>
+                            <li>贊助一經 Apple 完成入帳後，退款依 Apple App Store 政策辦理</li>
+                        </ul>
                     </div>
 
                     <div>
@@ -176,7 +169,7 @@
                             如您對本服務條款有任何疑問，請聯絡我們：
                         </p>
                         <ul class="list-none text-gray-700 space-y-2 mt-3">
-                            <li>Email: support@cowgoohiwong.com</li>
+                            <li>Email: cowgoohiwong@gmail.com</li>
                             <li>網站: <a href="https://app.cowgoohiwong.com" class="text-brand-primary hover:underline">https://app.cowgoohiwong.com</a></li>
                         </ul>
                     </div>
@@ -196,7 +189,7 @@
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="flex items-center space-x-2 mb-4 md:mb-0">
-                    <img src="../assets/AppIcon8.png" alt="考古海王" class="h-6 w-6">
+                    <img src="../assets/AppIcon-128.png" alt="考古海王" class="h-6 w-6">
                     <span class="text-white font-semibold">考古海王</span>
                 </div>
                 <div class="flex space-x-6 text-sm">
@@ -206,7 +199,7 @@
                 </div>
             </div>
             <div class="mt-6 pt-6 border-t border-gray-800 text-center text-sm">
-                <p>&copy; 2024 考古海王. All rights reserved.</p>
+                <p>&copy; 2026 考古海王. All rights reserved.</p>
             </div>
         </div>
     </footer>
