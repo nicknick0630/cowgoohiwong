@@ -38,7 +38,7 @@ jobs:
           shopt -s dotglob
           cp -r index.html privacy terms assets CNAME robots.txt sitemap.xml llms.txt dist
           # Fail fast if any critical SEO file is missing
-          for f in dist/index.html dist/robots.txt dist/sitemap.xml dist/llms.txt dist/assets/og-image.png dist/assets/css/site.css dist/assets/AppIcon-128.png; do
+          for f in dist/index.html dist/robots.txt dist/sitemap.xml dist/llms.txt dist/assets/og-image.png dist/assets/css/site.css dist/assets/AppIcon-128.png dist/assets/favicon-32.png dist/assets/apple-touch-icon-180.png; do
             test -f "$f" || { echo "Missing critical file: $f" && exit 1; }
           done
           ls -la dist/

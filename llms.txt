@@ -60,6 +60,15 @@
 - 已執業但想複習歷屆題目的醫療專業人員
 - 偏好 iPad 結構化學習體驗的學生
 
+## 資料處理與隱私
+
+- App 本身不主動收集 analytics 或 telemetry，沒有第三方 analytics SDK
+- 使用者透過 in-app feedback 表單提交時，App 會送 message / 時間戳 / app 版本 / 裝置型號與 OS / 匿名 client ID 到 Apple CloudKit public database，並透過 Cloudflare Worker 通知開發者 LINE。**Feedback 表單不收集 email**
+- 書籤等個人化資料透過 iCloud / CloudKit 私有資料庫同步，存放於使用者自己的 iCloud 帳號
+- 網站使用 Google Analytics 4（GA4）收集匿名訪問統計（瀏覽器、頁面、停留時間等），不識別個人
+- App 沒有自建帳號系統，不要求註冊或提供 email
+- 詳細資料處理請見 [隱私權政策](https://app.cowgoohiwong.com/privacy/)
+
 ## Optional
 
 - [Open Graph 預覽圖](https://app.cowgoohiwong.com/assets/og-image.png): 社群分享預覽圖
