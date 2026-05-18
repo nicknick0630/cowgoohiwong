@@ -36,8 +36,25 @@ jobs:
         run: |
           mkdir -p dist
           shopt -s dotglob
-          cp -r index.html privacy terms assets CNAME robots.txt sitemap.xml llms.txt dist 2>/dev/null || true
+          cp -r index.html privacy terms assets CNAME robots.txt sitemap.xml llms.txt dist
+          # Fail fast if any critical SEO file is missing
+          for f in dist/index.html dist/robots.txt dist/sitemap.xml dist/llms.txt dist/assets/og-image.png dist/assets/css/site.css; do
+            test -f "$f" || { echo "Missing critical file: $f" && exit 1; }
+          done
           ls -la dist/
+
+      - name: Stamp lastmod / dateModified to today
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          echo "Stamping date: $TODAY"
+          # sitemap.xml: all <lastmod>YYYY-MM-DD</lastmod>
+          sed -i "s|<lastmod>[0-9-]*</lastmod>|<lastmod>${TODAY}</lastmod>|g" dist/sitemap.xml
+          # index.html JSON-LD: "dateModified": "YYYY-MM-DD"
+          sed -i "s|\"dateModified\": \"[0-9-]*\"|\"dateModified\": \"${TODAY}\"|g" dist/index.html
+          # llms.txt: 「最後更新：YYYY-MM-DD」
+          sed -i "s|最後更新：[0-9-]*|最後更新：${TODAY}|g" dist/llms.txt
+          echo "--- Stamped values ---"
+          grep -E "lastmod|dateModified|最後更新" dist/sitemap.xml dist/index.html dist/llms.txt | head -10
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

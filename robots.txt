@@ -18,6 +18,13 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Legacy aliases (defensive — older crawlers may still send these UA strings)
 User-agent: Claude-Web
 Allow: /
 
